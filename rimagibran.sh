@@ -1,25 +1,13 @@
 clear
-#!/bin/bash
-#version 1.0
-
-# Variables
-b='\033[1m'
-u='\033[4m'
-bl='\E[30m'
-r='\E[31m'
-g='\E[32m'
-bu='\E[34m'
-m='\E[35m'
-c='\E[36m'
-w='\E[37m'
-endc='\E[0m'
-enda='\033[0m'
-blue='\e[1;34m'
-cyan='\e[1;36m'
-red='\e[1;31m'
-
-figlet gibran | lolcat
-
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+sleep 2
+echo $blue"SELAMAT DATANG DI TOOLS KAMI"
 echo $green"No Wa : 085238506497"
 echo $green"Email : gibranfancy@gmail.com"
 echo $green"admin : gibran"
@@ -68,4 +56,3 @@ echo $purple"[19].Hack Tiket Pesawat"
 echo $red"============================"
 echo $purple"[20].Keluar Tools"
 echo $red"============================"
-
